@@ -1,7 +1,3 @@
-
-# We are looking for you to:
-    # Use unit tests to show the correctness of your implementation
-
 import unittest
 from main import brute_force_generate_prime, sieve_eratosthenes_generate_prime
 
