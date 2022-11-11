@@ -7,6 +7,8 @@ It will then output the the execution time it takes to generate the lists using 
 
 Simply clone the repo, navigate to the directory in a terminal, and run `python3 main.py`. You will then be prompted to enter an integer value, so enter any integer greater than 1 and hit `enter`.
 
+To run the unit tests, simply run `python3 -m unittest test_main.py`
+
 ### Is there any measurable difference between the two algorithms for small values of N?
 
 For small integer values, the difference is in miliseconds. However as you get into the hundreds of thousands or millions, the difference is exponential.
