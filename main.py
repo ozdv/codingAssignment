@@ -1,18 +1,3 @@
-# Your program should accept the max value, N, as a command line argument,
-# and run benchmark tests for each algorithm in parallel.
-# For example, if your program is written in Java the Sieve of Eratosthenes testing should run in one thread,
-# and the Brute Force testing should run concurrently in a separate thread.
-# Finally, your program should report the results of the benchmarking to the screen and exit.
-# At a minimum the measured execution time of each algorithm should be printed.
-
-# We are looking for you to:
-    # Use unit tests to show the correctness of your implementation
-    # Add any applicable documentation
-    # Note any assumptions that you make
-    # Include instructions on how to run your program
-    # Use git for version control
-
-############################################################################################################################
 
 import math
 import threading
@@ -22,7 +7,6 @@ from multiprocessing import Process, cpu_count
 
 def main():
     '''main function'''
-
     # sterilize inputs to ensure program doesn't break
     max_value = 0
     while max_value < 2:
