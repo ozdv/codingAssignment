@@ -2,7 +2,7 @@ import unittest
 from main import brute_force_generate_prime, sieve_eratosthenes_generate_prime
 
 class PrimesTestCase(unittest.TestCase):
-    '''Tests for `primes.py`.'''
+    '''Tests for `main.py`.'''
 
     def test_if_both_return_equal_lists(self):
         '''Are both functions returning the same list of primes?'''
